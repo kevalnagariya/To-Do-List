@@ -1,0 +1,37 @@
+/* Card style - removes border and adds a left border with primary color */
+.card {
+    border: none; /* Removes the default border */
+    border-left: 5px solid var(--bs-primary); /* Adds a left border with the Bootstrap primary color */
+    transition: 0.3s ease; /* Adds a smooth transition effect on hover */
+  }
+  
+  /* Card hover effect - slightly increases the size */
+  .card:hover {
+    transform: scale(1.01); /* Slightly enlarges the card when hovered */
+  }
+  
+  /* Badge styles - controls the appearance of task status badges */
+  .badge-status {
+    font-size: 0.8rem; /* Sets font size of the badge */
+    padding: 5px 10px; /* Adds padding inside the badge */
+    border-radius: 20px; /* Rounds the corners of the badge */
+  }
+  
+  /* Incomplete status badge style - red background with dark red text */
+  .badge-Incomplete {
+    background-color: #f8d7da; /* Light red background */
+    color: #842029; /* Dark red text */
+  }
+  
+  /* In-Progress status badge style - yellow background with dark yellow text */
+  .badge-In-Progress {
+    background-color: #fff3cd; /* Light yellow background */
+    color: #856404; /* Dark yellow text */
+  }
+  
+  /* Complete status badge style - green background with dark green text */
+  .badge-Complete {
+    background-color: #d1e7dd; /* Light green background */
+    color: #0f5132; /* Dark green text */
+  }
+  
